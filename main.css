@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: #de9af3;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+main{
+    width: 100%;
+    padding: 20px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.contenedor__todo{
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    position: relative;
+    left: 200px;
+    margin-top: -10px;
+    margin-bottom: 20px;
+    height: 40px;
+    
+}
+
+.formulario__login form{
+    display: flex;
+    align-items: center;
+    width: 0%;
+    max-width: 400px;
+    position: relative;
+    top: 185px;
+
+}
+
+.formulario__login {
+    width: 50%;
+    padding: 50px 20px;
+    background:#ffffff ;
+    position:absolute;
+    border-radius: 40px;
+    align-items: center;
+    border-width: 3px;
+    border-style:groove;
+    border-color: rgb(182, 63, 182) ;
+}
+
+.formulario__login h5 {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+    margin: 15px;
+    color:rgb(182, 63, 182);
+}
+
+.formulario__login h3{
+    font-size: 15px;
+    text-align: left;
+    margin-bottom: -10px;
+    margin-top: 30px;
+}
+
+.formulario__login input{
+    width: 100%;
+    margin-top: 20px;
+    padding: 5px 10px;
+}
+
+.formulario__login button{
+    width: 100%;
+    margin-top: 20px;
+    color: rgb(255, 255, 255) ;
+    background-color: rgb(182, 63, 182) ;
+    border-radius: 20px ;
+    margin-bottom: -5px;
+}
+
+.formulario__login img{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    display: block;
+    margin: auto;
+}
+
+.contenedor__titulo{
+    width: 400px;
+    height: 100px;
+    background: #ffffff;
+    text-align: center;
+    border-radius: 30px ;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: -30px;
+    border-width: 3px;
+    border-style:groove;
+    border-color: rgb(182, 63, 182) ;
+}
+
+.contenedor__titulo h5{
+    text-align: center;
+    font-size: 28px;
+    color:rgb(182, 63, 182) ;
+    margin:auto;
+    font-family: sans-serif;
+    font-weight: bold;
+}
